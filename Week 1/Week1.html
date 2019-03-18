@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Week 1 Practice</title>
+    <link href="week1Practice.css" rel="stylesheet">
+    </head>
+
+    
+<body>
+    <header>JavaScript II</header>
+
+<div class = "backgroundColorSection">
+<h1>Change the Background Color</h1>
+    <button id = "red">Red</button>
+    <button id = "green">Green</button>
+    <button id = "blue">Blue</button>
+    <button id = "badass">bada55</button>
+    <button id = "pink">Pink</button>
+    <button id = "cs50">CS50</button>
+    <button id = "shark">Shark</button>
+    <button id = "tank">Tank</button>
+    <button id = "cat">Cat</button>
+    <button id = "reset">Reset</button>
+    
+  
+
+</div>
+
+
+<div class = "textBody">
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus voluptates molestias nobis numquam magni hic possimus ab, quas sit dolorum vel explicabo sapiente maiores. Omnis dolor unde eaque exercitationem magni.
+    </p>
+
+    <h2>Please select preferred text size below:</h2>
+    <select>
+        <option value = '5em'>XXL</option>
+        <option value = '3em'>XL</option>
+        <option value = '1em'>L</option>
+        <option value = '1.75em'>M</option>
+        <option value = '.5em'>S</option>
+    </select>
+
+    <script>
+        document.querySelector('select').onchange = function() {
+            document.querySelector('body').style.fontSize = this.value;
+        }
+    </script>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src = "js/Week1.js"></script>
+    
+</body>
+</html>
